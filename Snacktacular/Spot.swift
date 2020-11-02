@@ -28,8 +28,18 @@ class Spot {
     convenience init() {
         self.init(name: "", address: "", averageRating: 0.0, numberOfReviews: 0, postingUserID: "", doccumentID: "")
     }
-    func saveData(completion: @escaping (Bool) -> ()) {
-        return nil
+    
+    convenience init(dictionary: [String: Any]) {
+        let name = dictionary["name"] as! String? ?? ""
+        let address = dictionary["address"] as! String? ?? ""
+        let averageRating = dictionary["averageRating"] as! Double? ?? 0.0
+        let numberOfReviews = dictionary["numberOfReviews"] as! Int ?? 0
+        let postingUserID = dictionary["postingUserID"] as! String? ?? ""
+    
+        self.init(name: name, address: address, averageRating: averageRating, numberOfReviews: numberOfReviews, postingUserID: postingUserID)
     }
+//    func saveData(completion: @escaping (Bool) -> ()) {
+//        return nil
+//    }
 }
 
