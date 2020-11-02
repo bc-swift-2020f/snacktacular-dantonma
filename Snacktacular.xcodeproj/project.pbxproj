@@ -14,6 +14,8 @@
 		F84CC708254F708D00193203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84CC706254F708D00193203 /* Main.storyboard */; };
 		F84CC70A254F708D00193203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84CC709254F708D00193203 /* Assets.xcassets */; };
 		F84CC70D254F708D00193203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84CC70B254F708D00193203 /* LaunchScreen.storyboard */; };
+		F862CAFD25508899000E1CB2 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862CAFC25508899000E1CB2 /* Spot.swift */; };
+		F862CB1F25508D63000E1CB2 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862CB1E25508D63000E1CB2 /* UIViewController+alert.swift */; };
 		F8B5E4DB254F737A002D2054 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8B5E4DA254F737A002D2054 /* GoogleService-Info.plist */; };
 		F8B5E4DF254FA009002D2054 /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5E4DE254FA009002D2054 /* SpotListViewController.swift */; };
 		F8B5E4E2254FA358002D2054 /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5E4E1254FA358002D2054 /* SpotTableViewCell.swift */; };
@@ -32,6 +34,8 @@
 		F84CC709254F708D00193203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84CC70C254F708D00193203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F84CC70E254F708D00193203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F862CAFC25508899000E1CB2 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		F862CB1E25508D63000E1CB2 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		F8B5E4DA254F737A002D2054 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F8B5E4DE254FA009002D2054 /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
 		F8B5E4E1254FA358002D2054 /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
@@ -82,10 +86,12 @@
 			children = (
 				F84CC700254F708D00193203 /* AppDelegate.swift */,
 				F84CC702254F708D00193203 /* SceneDelegate.swift */,
+				F862CAFC25508899000E1CB2 /* Spot.swift */,
 				F84CC704254F708D00193203 /* LoginViewController.swift */,
 				F8B5E4DE254FA009002D2054 /* SpotListViewController.swift */,
 				F8B5E4E1254FA358002D2054 /* SpotTableViewCell.swift */,
 				F8B5E4E4254FA80F002D2054 /* SpotDetailViewController.swift */,
+				F862CB1E25508D63000E1CB2 /* UIViewController+alert.swift */,
 				F84CC706254F708D00193203 /* Main.storyboard */,
 				F84CC709254F708D00193203 /* Assets.xcassets */,
 				F84CC70B254F708D00193203 /* LaunchScreen.storyboard */,
@@ -241,7 +247,9 @@
 				F84CC701254F708D00193203 /* AppDelegate.swift in Sources */,
 				F8B5E4E5254FA80F002D2054 /* SpotDetailViewController.swift in Sources */,
 				F8B5E4E2254FA358002D2054 /* SpotTableViewCell.swift in Sources */,
+				F862CAFD25508899000E1CB2 /* Spot.swift in Sources */,
 				F84CC703254F708D00193203 /* SceneDelegate.swift in Sources */,
+				F862CB1F25508D63000E1CB2 /* UIViewController+alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

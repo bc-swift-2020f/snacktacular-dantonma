@@ -287,6 +287,11 @@
                                 <action selector="canelButtonPressed:" destination="2DH-Qm-NJx" id="l43-61-87O"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="2ZY-uj-kzp">
+                            <connections>
+                                <action selector="saveButtonPressed:" destination="2DH-Qm-NJx" id="p5S-JS-OMD"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>

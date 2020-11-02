@@ -21,7 +21,7 @@ class SpotListViewController: UIViewController {
     }
     
     func configureSegmentedControl() {
-        let orangeFontColor = [NSAttributedString.Key.foregroundColor : UIColor?(named: "PrimaryColor") ?? UIColor.orange]
+        let orangeFontColor = [NSAttributedString.Key.foregroundColor : UIColor(named: "PrimaryColor") ?? UIColor.orange]
         let whiteFontColor = [NSAttributedString.Key.foregroundColor : UIColor.white]
         sortSegmentedControl.setTitleTextAttributes(orangeFontColor, for: .selected)
         sortSegmentedControl.setTitleTextAttributes(whiteFontColor, for: .normal)
